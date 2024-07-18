@@ -8,6 +8,20 @@ import {
 } from "./GlobalStyles";
 
 export const ScreenStyles = StyleSheet.create({
+  container3: {
+    padding: 20,
+  },
+  label: {
+    fontSize: 18,
+    marginBottom: 5,
+  },
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+  },
   defaultFlexLayout: {
     flex: 1,
   },

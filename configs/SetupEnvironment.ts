@@ -1,8 +1,10 @@
-import { Environment, EnvProps } from "eccom-lib";
+import { Environment, EnvProps } from "project-loanapp";
+
 
 const SetupEnvironment: EnvProps = {
-  API_URL: process.env.EXPO_PUBLIC_ECCOM_BASE_URL,
-  ORDERS: process.env.EXPO_PUBLIC_ORDERS
+  API_URL: process.env.EXPO_PUBLIC_LOANAPP_BASE_URL,
+  LOAN: process.env.EXPO_PUBLIC_LOAN
+ 
 };
 
 export default async function initEnvironment() {

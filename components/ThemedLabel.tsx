@@ -1,4 +1,5 @@
 import { TextProps, Text } from "@rneui/base";
+import React from "react";
 
 export type ThemedLabelProps = TextProps & {
     label: string
